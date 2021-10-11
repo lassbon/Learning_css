@@ -1,0 +1,21 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10 10px 0 10px;
+}
+
+#login>form>span>input[type="text"],
+[type="password"] {
+    padding: 2px 5px 2px 5px;
+    color: blueviolet;
+    border: 5px;
+    width: 100px;
+}
+
+#submit-btn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.spanMe {
+    margin-bottom: -200px;
+}
