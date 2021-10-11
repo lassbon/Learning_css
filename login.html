@@ -3,9 +3,10 @@
 <html>
 <head>
   <title>My first website!</title>
+  <link rel="stylesheet" href="css/login.css" />
 </head>
 <body>
-  <header>
+  <!-- <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -13,15 +14,22 @@
         <li>Login</li>
       </ul>
     </nav>
-  </header>
+  </header> -->
   <section>
-    <h2>Login</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2>Login</h2><hr>
+    <div id="login">
+      <form>
+        <span class="span1">
+          <input type="text" name="username" id="username" placeholder="Enter your username" >
+        </span><br></br>
+        <span class="span1">
+          <input type="password" name="password" id="password" placeholder="Enter your password">
+        </span><br></br>
+        <span class="span1">
+          <input type="Submit" name="submit-btn" id="submit-btn" value="Login">
+        </span><br></br>
+      </form>
+    </div>
   </section>
 </body>
 </html>
