@@ -1,0 +1,19 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    margin: 15px 15px 15px 15px;
+    border:10px solid pink; 
+}
+#login > form > span > input[type="text"],[type="password"] {
+    padding:15px;
+    color:brown;
+    border-radius: 5px;
+    width: 200px
+}
+#submit-btn{
+    padding:10px;
+    border-radius: 5px;
+}
+.spanMe{
+    margin-bottom: 200px
+
+}
