@@ -1,0 +1,24 @@
+body{
+    background-color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 10px 0 10px;
+    text-align: center;
+    
+}
+#login > form > span > input[type="text"], [type="password"]{
+padding: 2px 5px 5px 2px;
+color: chartreuse;
+border:5px solid blue;
+width: 5%;
+}
+.spanme{
+    margin-bottom: -200px;
+
+
+}
+submit-btn{
+    color: chartreuse;
+    padding: 10px;
+    border-radius: 5px;
+
+}

@@ -2,37 +2,26 @@
 <html>
 <head>
   <title>My first website!</title>
-  <style>
-    body {
-background-color: tomato;
-font-size: 25px;
-font-family: 'Courier New', Courier, monospace;
-    }
-    #container {
-      padding: 150px 20px 10px 5px;
-      border: 2px solid red;
-      margin: 2px 0 20px 100px;
-    }
-  </style>
+  <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li style="background-color: turquoise;"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li style="color: violet;">Login</li>
-      </ul>
-    </nav>
-  </header>
+    
   <section>
-    <h2>Login</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2>Login</h2><hr>
+    <div id="login">
+<form>
+  <span class="spanme">
+    <input type="text" name="Username" id="Username" placeholder="Username"required>
+  </span><br> <br>
+  <span class="spanme">
+    <input type="password" name="password" id="password" placeholder="password" required>
+  </span><br><br>
+  <span class="spanme">
+    <input type="button" name="submit-btn" id="submit-btn" value="login" required>
+  </span>
+</form>
+    </div>
   </section>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quod architecto accusamus eius, nesciunt consequatur laboriosam corrupti nostrum perspiciatis saepe reprehenderit animi veniam, quasi, quo rem possimus cupiditate? Mollitia, recusandae!</p>
 </body>
 </html>
