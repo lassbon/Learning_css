@@ -55,6 +55,9 @@ h2{
     font-size: 70px;
     color: white;
     margin-top: 100px;
+    animation: pop 40s;    
+    animation-iteration-count: infinite;
+
 }
 .abt2 h2{
     font-family: "Cherry Swash";
@@ -71,6 +74,9 @@ p{
     color: white;
     font-size: 30px;
     font-weight: 3rem;
+}
+.abt2 p:hover{
+    color: red;
 }
 .abt2 p{
     margin: 5px 0px 0px 15px;
@@ -91,4 +97,17 @@ p{
 .flex{
     justify-content: space-between;
 display: flex;
+}
+@keyframes pop {
+   0%{color: red;}
+   10%{color: green;}
+   20%{color: yellow;}
+   30%{color: brown;}
+   40%{color: blue;}
+   50%{color: crimson;}
+   60%{color: chartreuse;}
+   70%{color: chocolate;}
+   80%{color: aliceblue;}
+   90%{color: peru;}
+   100%{color: white;}
 }
