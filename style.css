@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Kurale&family=Satisfy&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.home button{
+    border: 1px solid green;
+    outline: none;
+    border-radius: 10px 10px;
+    padding: 5px;
+    background-color: none;
+    margin: 10px 0px 10px 3px ;
+}
+.btn{
+    font-family: "kurale";
+    color: green;
+    font-size: 20px;
+}
+nav{
+    width: 100%;
+    height: 5vh;
+    background-color: green;
+}
+ul{
+   float: right;
+    border-radius: 2px;
+}
+li{    
+    justify-content: space-around;
+    display: inline-block;
+    
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "kurale";
+    padding: 20px;
+}
+.whole{
+    width: 100%;
+    height: 100vh;
+    background:url(https://mk0edsource0y23p672y.kinstacdn.com/wp-content/uploads/2017/07/IMG_1545-1200x750.jpg)rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: fixed;
+}
+h2{
+    font-family: "Cherry Swash";
+    font-size: 70px;
+    color: white;
+    margin-top: 100px;
+}
+.move{
+    text-align: center; 
+}
+p{
+    margin-top: 50px;
+    font-family: "satisfy";
+    color: white;
+    font-size: 30px;
+    font-weight: 3rem;
+}
