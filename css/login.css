@@ -1,24 +1,45 @@
 body{
-    background-color: cyan;
+    background-color: green;
     font-family: 'Times New Roman', Times, serif;
     margin: 10px 10px 0 10px;
     text-align: center;
+    border: none;
     
 }
-#login > form > span > input[type="text"], [type="password"]{
+#login > form > span > input[type="text"],[type="password"]{
 padding: 2px 5px 5px 2px;
 color: chartreuse;
 border:5px solid blue;
-width: 5%;
+border-radius: 5px;
 }
 .spanme{
     margin-bottom: -200px;
 
 
 }
-submit-btn{
+#submit-btn{
     color: chartreuse;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 2px;
+    border: 2px solid blueviolet;
+    width: 40px;
+    height: 20px;
+}
+::placeholder{
+    text-align: left;
+    font-size: 15px;
+    background-color: chartreuse;
+}
+label{
+    color: yellow;
+    font-size: 15px;
 
+}
+h2{
+    color: yellow;
+    font-size: 25px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
 }
