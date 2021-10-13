@@ -1,0 +1,57 @@
+* {
+	margin: 5px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+body {
+	font-family: sans-serif;
+	background-image: url(../images/mushroomh.jpg);
+	background-size: contain;
+}
+h1 {
+	border-bottom: 2px solid black;
+	width: 20%;
+	border-right: 2px solid black;
+}
+/* hr {
+	width: 300px;
+} */
+#header {
+	background-color: burlywood;
+	color: aqua;
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+	/* width: 500px; */
+	/* display: flex;
+	justify-content: space-between; */
+}
+.no_dot {
+	list-style: none;
+}
+.listinline {
+	display: inline-block;
+}
+.boxed {
+	background-color: wheat;
+	border: 2px solid wheat;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+img {
+	width: 32%;
+	height: 450px;
+	border: 2px solid red;
+	/* margin: 10px; */
+}
+
+/* #container {
+	display: flex;
+	justify-content: center;
+} */
