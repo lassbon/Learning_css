@@ -9,11 +9,15 @@ body{
     border-radius:5px;
     width: 200px;
 }
-.spanMe {
-    margin-top: 10px;
-}
+
 #submit-btn{
     padding: 10px;
     border-radius: 5px;
+    width: 225px;
+    background-color: DodgerBlue;
+    color: whitesmoke;
 
+}
+#password, #submit-btn{
+    margin-top: 10px;
 }
