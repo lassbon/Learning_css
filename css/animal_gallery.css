@@ -1,0 +1,59 @@
+* {
+    margin: 5px ;
+}
+body{
+    font-family: cursive;
+    background-image: url('../images/lapi.jpg');
+    background-repeat: none;
+
+}
+
+hr{
+    width: 30%;
+}
+ul{
+    padding-inline-start: 0px;
+}
+.listinline{
+    display: inline-block;
+}
+
+#header{
+    background-color: black;
+    color: green;
+    padding: 8px;
+    font-size: 25px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+h1{
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+    width: 20%;
+}
+img{
+    width:32.2%;
+    height:450px;
+    border-radius: 50px;
+
+    
+
+}
+.boxed{
+    background-color: teal;
+    border: 2px solid teal;
+    border-radius:15px;
+    padding: 10px;
+}
+/* #container{
+    display: flex;
+    justify-content: right;
+    float: right;
+    text-align: center;
+} */
