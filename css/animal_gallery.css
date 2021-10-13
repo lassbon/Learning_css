@@ -1,0 +1,71 @@
+* {
+  margin:5px;
+}
+ul{
+    padding-inline-start: 0px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    font-family: fantasy;
+    background-image: url('../images/lion_bg.jpeg');
+
+}
+
+hr {
+    width: 30%;
+}
+
+a:hover{
+    color:red;
+}
+
+h1 {
+    border-bottom: 2px solid orange;
+    border-right:  2px solid orange;
+    width:15%;
+}
+
+img {
+    width:32.2%;
+    height:450px;
+    /* border:2px solid red; */
+    border-radius: 30px;
+    /* margin:10px; */
+
+}
+
+#header{
+    background-color: black;
+    color: white;
+    padding:8px 0px;
+    font-size: 25px;;
+    text-align: left;
+}
+.nodot{
+    list-style: none;
+
+} 
+
+.listInline {
+    display:inline-block
+}
+
+.boxed {
+    background-color: teal;
+    border: 2px solid teal;
+    padding:10px;
+    border-radius: 5px;;
+}
+
+/* #container{
+    display:flex;
+    justify-content: right;
+    float:right;
+    border:2px solid red;
+} */
+
