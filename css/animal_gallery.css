@@ -1,0 +1,53 @@
+* {
+    margin:5px;
+}
+body{
+    font-family:monospace;
+    background-image: url(../Images/Jungle.jpg);
+}
+ul{
+    padding-inline-start: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #00ff00;
+    font-size: 30px;
+}
+.nodot {
+    list-style: none;
+}
+.listInLine{
+    display: inline-block;
+}
+#header{
+    background-color: black;
+    padding: 8px 0px;
+    font-size: 20px;
+    text-align: left;
+}
+.boxed{
+    background-color: teal;
+    border:2px solid teal;
+    padding: 10px;
+    border-radius: 5px;
+    }
+hr{
+    width: 30%;
+}
+img{
+    width: 32.2%;
+    height: 300px;
+}
+
+/* #container{
+    display: flex;
+    justify-content: center;
+} */
+h1{
+    border-bottom: 2px solid orange;
+    border-right: 2px solid orange;
+    width: 17%;
+}
