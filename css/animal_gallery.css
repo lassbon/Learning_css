@@ -1,0 +1,66 @@
+* {
+  margin: 5px;
+}
+
+body {
+  font-family: fantasy;
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+hr {
+  width: 30%;
+}
+
+h1 {
+  border-bottom: 2px solid orange;
+  border-right: 2px solid orange;
+  width: 15%;
+}
+a:hover {
+  color: blue;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  height: 400px;
+  width: 32.2%;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  padding: 8px 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.nodot {
+  list-style: none;
+}
+.listInline {
+  display: inline-block;
+}
+
+.boxed {
+  background-color: teal;
+  border: 2px teal;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#container {
+  display: flex;
+}
+
+img:hover {
+}
