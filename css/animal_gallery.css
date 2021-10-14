@@ -1,0 +1,66 @@
+*{
+    margin:5px
+}
+ul{
+    padding-inline-start:0px; 
+}
+a {
+  color:burlywood;
+  text-decoration: none;   
+}
+
+body{
+    font-family: cursive;
+    background-image: url("C:/Users/USER/Desktop/MyProjects/Learning_css/images/animal4.jpeg");
+    background-size: cover;
+     /* background-size:"height:100px" */
+     
+}
+h1{
+    border-bottom:2px solid chocolate;
+    border-right:2px solid chocolate;
+    width: 20%
+}
+
+a:hover{
+    color: darkgray;
+}
+img{
+    width:32%;
+    height:300px;
+    border-radius:50px
+}
+
+h2{
+    border-bottom:2px solid brown;
+    border-right:2px solid brown;
+    width:20%
+}
+#header{
+    background-color: rgb(236, 118, 78);
+    color:burlywood;
+    padding:10px 0px;
+    font-size:20px;
+}
+.nodot{
+    list-style: none;
+}
+
+.listInline{
+    display:inline-block
+}
+.nounderline{
+    text-decoration: none;
+}
+
+.boxed{
+    background-color: rgb(143, 73, 47);
+    border: 2px solid coral;
+    padding:10px;
+    border-radius:10px; 
+}
+
+#container{
+    /* text-align:center; */
+/* justify-content: center; */
+}
