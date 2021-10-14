@@ -47,4 +47,14 @@ img{
     width: 31.6%;
     height: 300px;
     border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    transition: width 0s;
+    box-shadow: 3px 5px 5px grey;
+    
+}
+img:hover {
+    box-shadow: 5px 5px 10px grey;
+    width: 33%;
+    height: 300px;
 }
