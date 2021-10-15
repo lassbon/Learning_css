@@ -4,8 +4,8 @@
 body{
     font-family: cursive;
     background-image: url('../images/lapi.jpg');
-    background-repeat: none;
-
+    background-size: 0in;
+    background-repeat: no-repeat;
 }
 
 hr{
