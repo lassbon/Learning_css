@@ -1,0 +1,62 @@
+.wrapper {
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .para {
+    position: absolute;
+    right: 0;
+    top: -35px;
+} */
+
+#buffer {
+    height: 100px;
+}
+
+.griid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas: 
+        "item1 item item3"
+        "item4 item5 item6";
+}
+
+.red {
+    height: 200px;
+    background-color: red;
+    grid-area: item1;
+}
+
+.green {
+    height: 200px;
+    background-color: green;
+    grid-area: item2;
+}
+
+.blue {
+    height: 200px;
+    background-color: blue;
+    grid-area: item3;
+}
+
+.yellow {
+    height: 200px;
+    background-color: yellow;
+    grid-area: item4;
+}
+
+.purple {
+    height: 200px;
+    background-color: purple;
+    grid-area: item5;
+}
+
+.orange {
+    height: 200px;
+    background-color: orange;
+    grid-area: item6;
+}
+
