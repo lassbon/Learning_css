@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&family=Kurale&family=Satisfy&display=swap');
+
+
+*{
+    margin: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 8px 0px;
+    font-size: 25px;
+    text-align: left;
+}
+.nodot{
+    list-style: none;
+}
+.listline{
+    display: inline-block;
+}
+
+.boxed{
+    background-color: black;
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+img{
+    width: 32%;
+    height: 300px;
+}
+section>h1{
+    font-family: "kurale";
+    text-align: center;
+    font-size: 30px;
+}
+section>h4{
+font-family: 'Cherry Swash';
+}
+section>p{
+    color: rgba(0, 0, 0, 0.717);
+    font-family: "satisfy";
+    font-size: 15px;
+}
+section>a:hover{
+    color: green;
+}
+section>h1>a{
+    color: black;
+}
