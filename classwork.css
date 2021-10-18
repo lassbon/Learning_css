@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 150px;
+    border: 1px solid brown;
+    background: lightcoral;
+}
+img{
+    width: 60%;
+    height: 150px;
+}
+.logo1{
+    width: 25%;
+    border: 2px solid red;
+    float: left;
+    height: 150px;
+    margin: -2px;
+}
+.header{
+    width: 75%;
+    border: 2px solid yellow;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    height: 150px;
+}
+
+ .menu{
+width: 100%;
+text-align: right;
+padding: 0 20px 0 20px;
+float: left;
+background: black;
+ }   
+ .menu > a{
+     text-decoration: none;
+    
+ }
+ a:hover{
+     color: lightcoral;
+ }
+ #form{
+     padding: 12px;
+     border: 2px solid red;
+     margin: 12px;
+ }
+ .lapi{
+     float: left;
+     height: 150px;
+     border: 2px solid orange;
+     margin-top: -2px;
+     width: 49%;
+ }
+ input{
+     border: 2px solid orange;
+     border-radius: 50px;
+ }
+ button{
+     border: 2px solid orange;
+     border-radius: 5px;
+ }
+ .lorem{
+     border: 2px solid hsl(39, 100%, 50%);
+     font-size: 12px;
+     font-family: cursive;
+     float: right;
+     width:50%
+     
+     
+ }
+.footer{
+clear: both;
+border: 2px solid orangered;
+font-size: 15px;
+background: orchid;
+text-align: center;
+}
+
+ 
