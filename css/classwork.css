@@ -1,0 +1,43 @@
+.menu {
+  background-color: lightblue;
+  width: 100%;
+  float: right;
+}
+.header {
+  margin-top: -50px;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #c94343;
+  padding: 10px;
+  float: right;
+}
+
+.left-inner-content {
+  width: 30%;
+  float: left;
+}
+.main-inner-content {
+  width: 60%;
+  float: right;
+  margin-top: -520px;
+  margin-right: 100px;
+}
+
+.right-inner-content {
+  width: 20%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+#footer {
+  background-color: grey;
+  clear: both;
+  text-align: center;
+  font-size: larger;
+}
+
+#image {
+  width: 100%;
+}
