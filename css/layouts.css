@@ -49,11 +49,7 @@ input {
     border-radius: 10px;
 }
 
-#inner-container:after{
-    /* content: "";
-    display:table;
-    clear:both */
-}
+
 
 #footer{
     border:2px solid red;
