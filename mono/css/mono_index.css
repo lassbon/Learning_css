@@ -1,0 +1,87 @@
+*{
+    font-family: 'Duplicate Sans','DM Sans',sans-serif
+}
+
+/* body{
+    background-image: url('../images/waziri.png');
+} */
+
+/* img{
+
+    width: 100%;
+} */
+
+.wrapper-first-inner > div > h1 {
+   font-size: 88px
+}
+
+.wrapper-first-inner > div > p {
+    font-size: 22px
+ }
+
+ .wrapper-first-inner > div > label {
+    background-color:#f5f5f5; 
+    padding: 15px 20px;
+    margin: 8px 0px;
+    border-radius: 10px;
+ }
+
+ .wrapper-first-inner > div > label:nth-child(1) {
+    background-color: #0055BA;
+    color:#ffffff;
+
+ }
+
+/* .wrapper > div, .wrapper-2 > div {
+   
+} */
+
+.li-inner {
+    display: inline-block;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    padding:50px 200px;
+    /* border:2px solid red; */
+
+}
+.annoucing {
+    background-color:#f5f5f5; 
+    padding: 9px 10px;
+    width:fit-content;
+    border-radius: 20px;
+ 
+}
+
+#new {
+    background-color: #0055BA;
+    color:white;
+    border-radius: 20px;
+    padding:4px 12px
+}
+
+
+.wrapper-2 {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding:50px 200px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px
+}
+
+.header > span {
+    padding:13px 20px;
+    border-radius: 10px;
+    background-color:#0055BA;
+    color:white
+}
+
+.header > span > a {
+    color:white
+}

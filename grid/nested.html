@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Nested Grid</title>
+</head>
+<style>
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 50% 30%;
+    /* grid-auto-rows: minmax(100px auto); */
+    grid-gap:20px;
+    padding:20px;
+    justify-items: end;
+}
+
+.box1 {
+    /* align-self: ; */
+}
+
+
+/* .wrapper > div {
+    border: solid 2px  red;
+    padding:10px;
+
+} */
+
+
+
+/* .nested-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.wrapper > div:nth-child(odd){
+    background-color: lightgray;
+} */
+
+/* .wrapper > div:nth-child(2){
+  grid-auto-columns:50px;
+} */
+</style>
+<body>
+    <div class="wrapper">
+
+    <!-- 
+        <div class="nested-header">
+            <div>1a</div>    
+            <div>1b</div>
+        </div>
+        <div>
+            <img src="../images/animal1.jpeg" />
+        </div>
+        <div>Footer</div>
+        <div class="nested">
+            <div>3a</div>    
+            <div>3b</div>
+            <div>3c</div>    
+            <div>3d</div>
+        </div>
+        <div>4</div> 
+    --> 
+
+    <div class="box1">
+        <i class="far fa-save"></i>
+       1 -  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Non fugiat minima ex assumenda? Autem exercitationem, qui 
+            quidem sint magnam magni illo tenetur dolor labore. Eligendi sit 
+            libero voluptatibus assumenda enim.
+    </div>
+
+    <div class="box2"> 
+        2 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Non fugiat minima ex assumenda? Autem exercitationem, qui 
+            quidem sint magnam magni illo tenetur dolor labore. Eligendi sit 
+            libero voluptatibus assumenda enim.
+    </div>
+
+    <div class="box3">
+        3 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Non fugiat minima ex assumenda? Autem exercitationem, qui 
+            quidem sint magnam magni illo tenetur dolor labore. Eligendi sit 
+            libero voluptatibus assumenda enim.
+    </div>
+    <div class="box4">
+        4 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Non fugiat minima ex assumenda? Autem exercitationem, qui 
+            quidem sint magnam magni illo tenetur dolor labore. Eligendi sit 
+            libero voluptatibus assumenda enim.
+    </div>
+
+
+
+    </div>  
+</body>
+</html>

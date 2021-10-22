@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>First Grid</title>
+</head>
+<style>
+    .wrapper {
+        display:grid;
+        /* grid-template-columns: 1fr 2fr 1fr 2fr; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(3, 2fr);
+        background-color:#eee;
+        padding:1em;
+      
+        /* grid-row-gap: 20px;
+        grid-column-gap: 20px; */
+        grid-gap:20px;
+        grid-auto-rows: minmax(50px, auto)
+
+    }
+
+.wrapper > div:nth-child(odd) {
+    background-color:cadetblue
+}
+
+</style>
+<body>
+    <div class="wrapper">
+        <div>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere nulla at voluptates
+              aliquid eveniet dolorem nesciunt mollitia eligendi, ad quidem sed corrupti, autem nam, 
+              
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere nulla at voluptates
+             aliquid eveniet dolorem nesciunt mollitia eligendi, ad quidem sed corrupti, autem nam, 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere nulla at voluptates
+             aliquid eveniet dolorem nesciunt mollitia eligendi, ad quidem sed corrupti, autem nam, 
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere nulla at voluptates
+             aliquid eveniet dolorem nesciunt mollitia eligendi, ad quidem sed corrupti, autem nam, 
+             
+       </div>
+       <div>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere nulla at voluptates
+            aliquid eveniet dolorem nesciunt mollitia eligendi, ad quidem sed corrupti, autem nam, 
+         
+      </div>
+      <div>
+          Lorem ipsum
+     </div>
+     <div>
+         Lorem ipsum dolor
+    </div>
+    </div>
+    
+</body>
+</html>
