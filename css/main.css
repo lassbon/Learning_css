@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+ header > nav > ul >li > a {
+    color:red;
+  }
+  ul >li > a {
+    text-decoration: none;
+  }
+  #container {
+    color:orange;
+    width: 1000px;
+    /* padding-top:100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 25px; */
+    padding: 150px 20px 10px 5px;
+    border: 2px solid red;
+
+    /* margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 20px; */
+
+    margin: 2px 0 20px 100px;
+  }
+ 

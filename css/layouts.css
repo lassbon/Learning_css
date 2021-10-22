@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+#container > div > h1,p {
+    padding:20px
+}   
+
+#header {
+    border: 2px solid red;
+    background-color: #a8a4a4;
+    padding:20px
+}   
+
+.menu{
+    background-color: lightblue;
+}
+.menu a {
+    text-decoration: none;
+    color: #c94343;
+    padding: 20px;
+}
+.menu a:hover{
+    background-color: #0b0516;
+}
+.left-inner-content{
+    /* border: 2px solid red; */
+    width:30%;
+    float:left;
+}
+.main-inner-content{
+    width: 50%;
+    float: left;
+    /* border:2px solid red; */
+}
+
+.right-inner-content{
+    border: 2px solid rgb(19, 13, 13);
+    width:20%;
+    float: left;
+    padding:10px;
+
+}
+
+input {
+    padding:5px;
+    width:100%;
+    border-radius: 10px;
+}
+
+
+
+#footer{
+    border:2px solid red;
+    clear:both;
+    /* margin-top: -50px */
+}
+

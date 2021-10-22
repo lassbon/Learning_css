@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex</title>
+</head>
+<style>
+
+/* 
+    @media(min-width: 601px) and (max-width: 899px) { 
+
+    .container-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    }
+    } */
+
+
+    .container-1 {
+        display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+
+
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .box-2-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-1 > div, .container-2 > div{
+        border: 2px solid red;
+        padding:10px
+    }
+
+    .box-1{
+        flex:1;
+        order:4
+    }
+    .box-2{
+        flex:1;
+        order:1
+    }
+    .box-3{
+        flex:1;
+        order: 2;
+    }
+
+
+ @media(max-width:600px){
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+
+
+</style>
+<body>
+    <div class="container-1">
+        
+        <div class="box-1">
+            <h3> Box One</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+            </p>
+
+        </div>
+        <div class="box-2">
+            <h3> Box Two</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!</p>
+        
+        </div>
+        <div class="box-3">
+            <h3> Box Three</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!</p>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="container-2">
+        
+        <div class="container2-box-1">
+            <h3> Container2 Box One</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+           possimus pariatur ea necessitatibus laborum!</p>
+
+        </div>
+        <div class="container2-box-2">
+            <h3> Container2 Box Two</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+           pariatur ea necessitatibus laborum!</p>
+
+
+        </div>
+        <div class="container2-box-3">
+            <h3>Container2 Box Three</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus pariatur ea necessitatibus laborum!
+            Quisquam possimus pariatur ea necessitatibus laborum!</p>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

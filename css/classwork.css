@@ -1,0 +1,54 @@
+*{
+    box-sizing:border-box;
+    margin:5px;
+    font-family: fantasy;
+}
+.float-div{
+    float:left;
+}
+img{
+    width:100%;
+    height:inherit;
+}
+#header-container{
+    height: 150px;
+}
+/*
+styled the header logo 
+*/
+.logo-header{
+    width:15%;
+    height:150px;
+    margin-top: -1.5px;
+}
+
+.text-header {
+    background-color: lightgreen;
+    width:80%;
+    height:150px;
+    text-align: center;
+}
+
+.menu-link{
+    width:95%;
+    text-align:right;
+}
+.menu-link > a {
+    text-decoration: none;
+
+}
+
+.content-left{
+    width:25%;
+
+}
+.content-right{
+    width:70%;
+ 
+}
+
+.footer{
+    width:100%;
+    clear:both;
+   text-align:center;
+}
